@@ -145,6 +145,10 @@ python setup.py install
 cd ..
 rm -rf keras
 
+#################################
+
+conda install -c conda-forge jupyterlab
+
 # Configure the Jupyter notebook 
 jupyter notebook --generate-config
 echo -e "\n# Configuring remote access to jupyter Notebook" >> ~/.jupyter/jupyter_notebook_config.py
