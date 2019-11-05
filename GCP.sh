@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This is the set-up script for Google Cloud.
+# author Aydin Ayanzadeh
 
 # Add cuda to path
 echo -e "export PATH=/usr/local/cuda-8.0/bin\${PATH:+:\${PATH}}" >> ~/.bashrc
